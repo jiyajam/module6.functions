@@ -81,11 +81,11 @@ user_input_price1 = float(input("Enter the price of the pizza 1: "))
 user_input_diameter2 = float(input("Enter the diameter of the pizza 2: "))
 user_input_price2 = float(input("Enter the price of the pizza 2: "))
 
-
-
-if pizza(user_input_diameter1,user_input_price1) < pizza(user_input_diameter2,user_input_price2):
-    print("the first pizza is a better deal")
-elif  pizza(user_input_diameter1,user_input_price1) > pizza(user_input_diameter2,user_input_price2):
-    print("the second pizza is a better deal")
-else :
-    print("both pizza are equal")
+def main()
+        if pizza(user_input_diameter1,user_input_price1) < pizza(user_input_diameter2,user_input_price2):
+            print("the first pizza is a better deal")
+        elif  pizza(user_input_diameter1,user_input_price1) > pizza(user_input_diameter2,user_input_price2):
+            print("the second pizza is a better deal")
+        else :
+            print("both pizza are equal")
+main()
